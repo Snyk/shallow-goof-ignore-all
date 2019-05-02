@@ -45,7 +45,7 @@ ignore:
         reason: None given
         expires: '2100-01-01T00:00:00.000Z'
   SNYK-JS-EXECA-174564:
-    - '*:
+    - '*':
         reason: None given
         expires: '2100-01-01T00:00:00.000Z'
 patch: {}
