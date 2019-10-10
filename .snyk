@@ -85,5 +85,9 @@ ignore:
   SNYK-JS-HTTPSPROXYAGENT-469131:
     - '*':
         reason: None Given
-        expires: 2019-11-01T13:40:50.129Z
+        expires: 2100-01-01T00:00:00.000Z
+  SNYK-JS-MONGOOSE-472486:
+    - '*':
+        reason: None Given
+        expires: 2100-01-01T00:00:00.000Z
 patch: {}
