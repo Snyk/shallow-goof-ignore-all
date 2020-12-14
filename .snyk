@@ -98,4 +98,8 @@ ignore:
     - mongoose > mongodb > mongodb-core > kerberos:
         reason: Fails tests on registry
         expires: '2100-06-12T06:54:14.888Z'
+  SNYK-JS-MQUERY-1050858:
+    - mongoose > mquery:
+        reason: Fails tests on registry
+        expires: '2100-06-12T06:54:14.888Z'
 patch: {}
