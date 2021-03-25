@@ -1,5 +1,5 @@
 # Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
-version: v1.14.1
+version: v1.19.0
 # ignores vulnerabilities until expiry date; change duration by modifying expiry date
 ignore:
   'npm:node-uuid:20160328':
@@ -102,4 +102,9 @@ ignore:
     - mongoose > mquery:
         reason: Fails tests on registry
         expires: '2100-06-12T06:54:14.888Z'
+  SNYK-JS-MONGOOSE-1086688:
+    - '*':
+        reason: Fails tests on registry
+        expires: 2100-04-24T12:43:13.154Z
+        created: 2021-03-25T12:43:13.161Z
 patch: {}
